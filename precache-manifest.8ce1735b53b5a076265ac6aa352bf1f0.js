@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "2cedca0c043ab714b6c1",
-    "url": "/psenice00/pickit/static/css/main.d7d8002a.chunk.css"
+    "revision": "aad3e369d30492833abe",
+    "url": "/psenice00/pickit/static/css/main.58aabeec.chunk.css"
   },
   {
-    "revision": "2cedca0c043ab714b6c1",
-    "url": "/psenice00/pickit/static/js/main.87f06b7d.chunk.js"
+    "revision": "aad3e369d30492833abe",
+    "url": "/psenice00/pickit/static/js/main.6d3b0c54.chunk.js"
   },
   {
-    "revision": "f0e4c6d56d08e3c444ba",
-    "url": "/psenice00/pickit/static/js/runtime~main.f11e064b.js"
+    "revision": "9e03480ee6b8de0e4ac9",
+    "url": "/psenice00/pickit/static/js/runtime~main.31c662a8.js"
   },
   {
-    "revision": "d5965d620077c772df82",
+    "revision": "d02b1accafd4df4a5fe4",
     "url": "/psenice00/pickit/static/css/2.48c56d1d.chunk.css"
   },
   {
-    "revision": "d5965d620077c772df82",
-    "url": "/psenice00/pickit/static/js/2.adbc6e08.chunk.js"
+    "revision": "d02b1accafd4df4a5fe4",
+    "url": "/psenice00/pickit/static/js/2.2758ea91.chunk.js"
   },
   {
-    "revision": "dec293f6ffd1cafcdfc6",
-    "url": "/psenice00/pickit/static/js/3.b6e49e2a.chunk.js"
+    "revision": "7131cb1ed12c9d329ffd",
+    "url": "/psenice00/pickit/static/js/3.bba72b8e.chunk.js"
   },
   {
     "revision": "703e351756a4ea38432aef92d4c06585",
@@ -56,15 +56,15 @@ self.__precacheManifest = [
     "url": "/psenice00/pickit/static/media/howItWorks1.9334ddd1.png"
   },
   {
-    "revision": "389510eac2bfb7b6dbfb0132b211987e",
-    "url": "/psenice00/pickit/static/media/howItWorks2.389510ea.png"
+    "revision": "a0ccbad07374995104b9a23edf39b3f7",
+    "url": "/psenice00/pickit/static/media/howItWorks2.a0ccbad0.png"
   },
   {
     "revision": "52d57914c428b57d3a8ac9ed113ba0fd",
     "url": "/psenice00/pickit/static/media/howItWorks3.52d57914.png"
   },
   {
-    "revision": "3a67408b9334bcd9c4ff4c05f6360cfc",
+    "revision": "8183bf7bf121f368282563ede2471974",
     "url": "/psenice00/pickit/index.html"
   }
 ];
