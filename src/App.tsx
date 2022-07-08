@@ -9,6 +9,7 @@ import React, { useEffect } from 'react'
 import { Footer } from './components/footer';
 import Aos from 'aos';
 import "aos/dist/aos.css"
+import { Cookie } from './components/utils/cookie';
 
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
       <FourthSection />
       <FifthSection />
       <Footer />
+
+      <Cookie />
     </div>
   );
 }

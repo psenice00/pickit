@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const SectionItem = (props: { number: string, imgSrc: string, headline: string, text: string, delay: number }) => {
+export const SectionItem = (props: { number: string, imgSrc: string, headline: string, text: string, delay: number, imgAlt: string }) => {
 
     return (
         <div data-aos="fade-up" data-aos-delay={props.delay} className="col-12 col-lg-4 my-5 my-md-0 px-0">
@@ -9,7 +9,7 @@ export const SectionItem = (props: { number: string, imgSrc: string, headline: s
                     {props.number}
                 </div>
                 <div className="card-img">
-                    <img src={props.imgSrc} />
+                    <img src={props.imgSrc} alt={props.imgAlt} />
                 </div>
 
                 <h3 className="text-white mt-auto display-6 bold-text">

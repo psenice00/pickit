@@ -216,6 +216,11 @@ button:focus {
 
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
 @media (max-width:481px) {
   #secondSection {
     margin-top: 10pt;
@@ -229,6 +234,14 @@ button:focus {
     margin-top: 90pt;
     height: 300px;
     width: 300px;
+  }
+
+  #root>div>div>div:nth-child(2) {
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 }

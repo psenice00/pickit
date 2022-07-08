@@ -9,12 +9,12 @@ export const FirstSection = () => {
 
     return (
         <>
-            <img src={topBg} className='w-100' />
+            <img src={topBg} alt="pozadí" className='w-100' />
             <section id="firstSection" className='light-background position-relative pt-1' >
                 <BlurElipse2 />
                 <div className="container row mx-auto d-flex align-items-center  p-0 py-1">
                     <div data-aos="fade-right" className="col-12 col-lg-5 p-0 mx-auto text-center text-md-start">
-                        <img className='w-75' src={team} />
+                        <img className='w-75' src={team} alt="ilustrace" />
 
                     </div>
                     <div className="col-12 col-lg-7 text-center text-md-start">

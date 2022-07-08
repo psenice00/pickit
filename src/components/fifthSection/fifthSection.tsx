@@ -12,7 +12,7 @@ export const FifthSection = () => {
                 <BlurElipse4 />
                 <BlurElipse3 />
                 <div data-aos="fade-right" className="col-12 col-lg-6 d-flex justify-content-center">
-                    <img src={map} className="w-75" />
+                    <img src={map} className="w-75" alt="kde nás najdete - mapa" />
                 </div>
                 <div data-aos="fade-up" className="col-12 col-lg-6 flex-column text-center">
                     <h1 className='text-white mb-2 mb-md-5 mt-5 mt-md-0'> Naše kontakty</h1>
@@ -34,7 +34,7 @@ export const FifthSection = () => {
                 <div data-aos="fade-up" data-aos-delay="300" className="col-12 col-lg-6 flex-column text-center mt-5 mt-md-0">
                     <h1 className='text-white mb-5'> Máte ještě <br /> nějaké otázky?</h1>
                     <p className='text-white opacity-75 '>Vyplňte krátký formulář pro <br /> zpětnou vazbu a my se vám do <br />jednoho dne ozveme.</p>
-                    <img src={envelope} className="w-50" />
+                    <img src={envelope} className="w-50" alt="ilustrace - dotazy" />
                 </div>
             </div>
 

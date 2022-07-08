@@ -21,21 +21,21 @@ export const ThirdSection = () => {
                     headline={"Výběr"}
                     delay={0}
                     text={"Na lednici si vyberete si z nabídky dostupných produktů"}
-                />
+                    imgAlt={"jak to funguje - výber"} />
                 <SectionItem
                     number={"2"}
                     imgSrc={howItWorks2}
                     headline={"Platba"}
                     delay={200}
                     text={"bankovní kartou, službou Apple nebo Google pay nebo v hotovosti"}
-                />
+                    imgAlt={"jak to funguje - platba"} />
                 <SectionItem
                     number={"3"}
                     imgSrc={howItWorks3}
                     headline={"Získejte zboží"}
                     delay={400}
                     text={"Po zaplacení nebo identifikaci uživatele se lednice otevřete"}
-                />
+                    imgAlt={"jak to funguje - získejte zboží"} />
             </div>
         </section>
     )

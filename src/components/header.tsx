@@ -14,7 +14,7 @@ export const Header = () => {
     return (
         <Navbar data-aos="fade-down" expand="lg" className='mt-4 container p-0 position-relative'>
             <BlurElipse1 />
-            <Navbar.Brand onClick={() => scrollToTop()}><img className='m-0 ms-3 ms-md-0' src={logo} /></Navbar.Brand>
+            <Navbar.Brand onClick={() => scrollToTop()}><img className='m-0 ms-3 ms-md-0' src={logo} alt="logo pickit.cz" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" className='me-3 border-0' >
                 <span className="" role="button" ><i className="fa fa-bars fa-2x text-white" aria-hidden="true"></i></span></Navbar.Toggle >
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end justify-content-lg-center">
@@ -28,7 +28,7 @@ export const Header = () => {
 
                 </Nav>
             </Navbar.Collapse>
-            <Navbar.Brand className=' d-none d-lg-block'><img className=' me-3 me-lg-4 me-xl-0 opacity-0' src={logo} /></Navbar.Brand>
+            <Navbar.Brand className=' d-none d-lg-block'><img className=' me-3 me-lg-4 me-xl-0 opacity-0' src={logo} alt="logo placeholder" /></Navbar.Brand>
         </Navbar>
     )
 }
