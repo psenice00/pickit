@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "7a581a696b523682ca90",
-    "url": "/psenice00/pickit/static/css/main.58aabeec.chunk.css"
+    "revision": "c78e9802c6413b8f327d",
+    "url": "/psenice00/pickit/static/css/main.730a8847.chunk.css"
   },
   {
-    "revision": "7a581a696b523682ca90",
-    "url": "/psenice00/pickit/static/js/main.350c44cb.chunk.js"
+    "revision": "c78e9802c6413b8f327d",
+    "url": "/psenice00/pickit/static/js/main.eafe24d7.chunk.js"
   },
   {
     "revision": "3539f88942f771040945",
     "url": "/psenice00/pickit/static/js/runtime~main.6636b0d0.js"
   },
   {
-    "revision": "f7e150bc7855fdad3416",
+    "revision": "9e14b99966ea9ae08bd5",
     "url": "/psenice00/pickit/static/css/2.48c56d1d.chunk.css"
   },
   {
-    "revision": "f7e150bc7855fdad3416",
-    "url": "/psenice00/pickit/static/js/2.6a610d7e.chunk.js"
+    "revision": "9e14b99966ea9ae08bd5",
+    "url": "/psenice00/pickit/static/js/2.7841d621.chunk.js"
   },
   {
     "revision": "6015cce8bdba36620ac0",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/psenice00/pickit/static/media/howItWorks3.17792876.webp"
   },
   {
-    "revision": "0c8bcab287a2a3510cd23acc4efcda0f",
+    "revision": "6c2498ea04ff0db33ccc60c7dc95b1e8",
     "url": "/psenice00/pickit/index.html"
   }
 ];
