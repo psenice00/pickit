@@ -1,4 +1,4 @@
-import fridge from '../assets/images/Fridge.png'
+import fridge from '../assets/images/fridge.webp'
 import React from 'react';
 import { scroolToElement } from './utils/scrollTo';
 
@@ -9,9 +9,15 @@ export const Intro = () => {
                 <h1 className='intro-text-color display-3'>Chytrá lednice</h1>
                 <p className='text-white opacity-75 my-3 intro-desc'>s řízeným přístupem k produktům, online
                     <br />  skladovým systémem a možností <br /> automatizovaného prodeje.</p>
-                <button onClick={() => scroolToElement("contactForm")} className='order-button rounded-pill text-white py-3 px-5'>
+                {/* <button onClick={() => scroolToElement("contactForm")} className='order-button rounded-pill text-white py-3 px-5'>
                     Objednat
-                </button>
+                </button> */}
+                <div className='extra-bottom-margin'>
+                    <button id='send-button' className='mx-auto mx-lg-0'>
+                        <span>Objednat</span>
+                        <div className='liquid'></div>
+                    </button>
+                </div>
             </div>
             <div className="col-12 col-lg-6 ">
                 <div data-aos="fade-left" className="fridge-circle rounded-circle mx-auto">

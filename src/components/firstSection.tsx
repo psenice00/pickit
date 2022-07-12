@@ -1,6 +1,6 @@
-import team from '../assets/images/Team.png'
-import bottomBg from '../assets/images/bottom_bg.png'
-import topBg from '../assets/images/top_bg.png'
+import team from '../assets/images/team.webp'
+import bottomBg from '../assets/images/bottom_bg.webp'
+import topBg from '../assets/images/top_bg.webp'
 import React from 'react';
 import { BlurElipse2 } from './utils/blurElipse';
 
@@ -36,7 +36,7 @@ export const FirstSection = () => {
                     </div>
                 </div>
             </section>
-            <img src={bottomBg} className='w-100' />
+            <img src={bottomBg} className='w-100' alt="pozadí" />
         </>
     )
 }

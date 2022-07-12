@@ -1,7 +1,7 @@
 import { SectionItem } from "./sectionItem"
-import howItWorks1 from "../../assets/images/howItWorks1.png"
-import howItWorks2 from "../../assets/images/howItWorks2.png"
-import howItWorks3 from "../../assets/images/howItWorks3.png"
+import howItWorks1 from "../../assets/images/howItWorks1.webp"
+import howItWorks2 from "../../assets/images/howItWorks2.webp"
+import howItWorks3 from "../../assets/images/howItWorks3.webp"
 import React from 'react';
 import { BlurElipse5 } from "../utils/blurElipse";
 
@@ -9,12 +9,12 @@ import { BlurElipse5 } from "../utils/blurElipse";
 export const ThirdSection = () => {
 
     return (
-        <section id="thirdSection" className='mt-5 container pt-5 mb-5 pb-5 position-relative'>
+        <section id="thirdSection" className='mt-5 mb-5 container pt-5 mb-5 pb-5 position-relative'>
             <BlurElipse5 />
             <h1 className="intro-text-color text-center">
                 Jak chytrá lednice funguje
             </h1>
-            <div className="row mx-4 d-flex align-items-start  p-0 py-5 ">
+            <div className="row mx-4 d-flex align-items-start  p-0 py-5 my-0 my-xl-5 ">
                 <SectionItem
                     number={"1"}
                     imgSrc={howItWorks1}

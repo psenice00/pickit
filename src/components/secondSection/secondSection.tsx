@@ -1,7 +1,7 @@
-import advantages1 from '../../assets/images/advantages1.png'
-import advantages2 from '../../assets/images/advantages2.png'
-import advantages3 from '../../assets/images/advantages3.png'
-import advantages4 from '../../assets/images/advantages4.png'
+import advantages1 from '../../assets/images/advantages1.webp'
+import advantages2 from '../../assets/images/advantages2.webp'
+import advantages3 from '../../assets/images/advantages3.webp'
+import advantages4 from '../../assets/images/advantages4.webp'
 import { SectionItem } from './sectionItem'
 import React from 'react';
 import { BlurElipse6 } from '../utils/blurElipse'

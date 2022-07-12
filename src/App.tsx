@@ -1,16 +1,16 @@
-import { FirstSection } from './components/firstSection';
-import { FifthSection } from './components/fifthSection/fifthSection';
-import { FourthSection } from './components/fourthSection/fourthSection';
 import { Header } from './components/header';
-import { Intro } from './components/intro';
-import { SecondSection } from './components/secondSection/secondSection';
-import { ThirdSection } from './components/thirdSection/thirdSection';
-import React, { useEffect } from 'react'
+import React, { lazy, useEffect } from 'react'
 import { Footer } from './components/footer';
 import Aos from 'aos';
 import "aos/dist/aos.css"
-import { Cookie } from './components/utils/cookie';
 
+import { Cookie } from './components/utils/cookie';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+
+
+
+const LandingPage = lazy(() => import('./components/landingPage'));
+const OrderPage = lazy(() => import('./components/order/order'));
 
 function App() {
   useEffect(() => {
@@ -20,16 +20,17 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <Header />
-      <Intro />
-      <FirstSection />
-      <SecondSection />
-      <ThirdSection />
-      <FourthSection />
-      <FifthSection />
-      <Footer />
+      <BrowserRouter>
+        <Header />
+        <LandingPage />
+        {/* <Routes>
+          <Route path='/' element={<LandingPage />} />
+          <Route path='/objednat' element={<OrderPage />} />
 
-      <Cookie />
+        </Routes> */}
+        <Footer />
+        <Cookie />
+      </BrowserRouter>
     </div>
   );
 }

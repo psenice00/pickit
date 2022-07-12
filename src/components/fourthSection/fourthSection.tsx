@@ -1,7 +1,6 @@
 import snowCap from '../../assets/images/snowCap.svg'
-import tablet from '../../assets/images/tablet.png'
+import tablet from '../../assets/images/tablet.webp'
 import React from 'react';
-import { BlurElipse5 } from '../utils/blurElipse';
 
 export const FourthSection = () => {
 
