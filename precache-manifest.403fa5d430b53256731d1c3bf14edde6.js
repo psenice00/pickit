@@ -1,39 +1,35 @@
 self.__precacheManifest = [
   {
-    "revision": "807ca6c999d5c41ff7e6",
+    "revision": "c8b0ed46e926d0ef244c",
     "url": "/psenice00/pickit/static/css/main.5a7cdff7.chunk.css"
   },
   {
-    "revision": "807ca6c999d5c41ff7e6",
-    "url": "/psenice00/pickit/static/js/main.de182eda.chunk.js"
+    "revision": "c8b0ed46e926d0ef244c",
+    "url": "/psenice00/pickit/static/js/main.0f0a030c.chunk.js"
   },
   {
-    "revision": "9b2918158cea863932a1",
-    "url": "/psenice00/pickit/static/js/runtime~main.4ef5dc43.js"
+    "revision": "ed80aa13a589f2d7aed6",
+    "url": "/psenice00/pickit/static/js/runtime~main.851cf3b5.js"
   },
   {
-    "revision": "c5e9d1473f6d5e692868",
-    "url": "/psenice00/pickit/static/css/2.48c56d1d.chunk.css"
+    "revision": "16f1a0549e3af70d70a4",
+    "url": "/psenice00/pickit/static/js/2.74c2deaa.chunk.js"
   },
   {
-    "revision": "c5e9d1473f6d5e692868",
-    "url": "/psenice00/pickit/static/js/2.34f24bc5.chunk.js"
+    "revision": "8489c1f1e543d18a7d8a",
+    "url": "/psenice00/pickit/static/css/3.48c56d1d.chunk.css"
   },
   {
-    "revision": "2714f1a25c33010d9751",
-    "url": "/psenice00/pickit/static/js/3.a7aaccd9.chunk.js"
+    "revision": "8489c1f1e543d18a7d8a",
+    "url": "/psenice00/pickit/static/js/3.008d050c.chunk.js"
   },
   {
-    "revision": "da0156a1f6666717f119",
-    "url": "/psenice00/pickit/static/js/4.7bb12139.chunk.js"
+    "revision": "d6abd1cc2d955ab9f0b2",
+    "url": "/psenice00/pickit/static/js/4.3cd55975.chunk.js"
   },
   {
-    "revision": "eda0cb50e2738a829ddf",
-    "url": "/psenice00/pickit/static/js/5.7070c8bc.chunk.js"
-  },
-  {
-    "revision": "633d3be3f7e2b5e00819",
-    "url": "/psenice00/pickit/static/js/6.d6633cbf.chunk.js"
+    "revision": "773fc2c99a8f1e47de8f",
+    "url": "/psenice00/pickit/static/js/5.3b6d1b05.chunk.js"
   },
   {
     "revision": "59025b0c0aa89a60c0fcca73c0f3a067",
@@ -104,7 +100,7 @@ self.__precacheManifest = [
     "url": "/psenice00/pickit/static/media/howItWorks3.d9115791.svg"
   },
   {
-    "revision": "5f1641cdbb60c9a3f1f85418480c9ee5",
+    "revision": "0a00e04e0f1565b52daf497b154c0318",
     "url": "/psenice00/pickit/index.html"
   }
 ];
